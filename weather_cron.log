@@ -1,0 +1,212 @@
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 7
+    URL =
+         ^
+SyntaxError: invalid syntax
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 7
+    URL =
+         ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 3, in <module>
+    import mysql.connector
+ModuleNotFoundError: No module named 'mysql'
+Data tallennettu: Oulu -4.94°C overcast clouds
+Data tallennettu: Oulu -4.94°C pilvinen
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Unknown MySQL server host 'MYSQL_HOST' (-3)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 20, in <module>
+    conn = mysql.connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/abstracts.py", line 1604, in connect
+    self._open_connection()
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 2005 (HY000): Unknown MySQL server host 'MYSQL_HOST' (-3)
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 354, in _open_connection
+    self._cmysql.connect(**cnx_kwargs)
+_mysql_connector.MySQLInterfaceError: Unknown MySQL server host 'MYSQL_HOST' (-3)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ubuntu/cron_assignment/fetch_weather.py", line 20, in <module>
+    conn = mysql.connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/pooling.py", line 322, in connect
+    return CMySQLConnection(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 142, in __init__
+    self.connect(**kwargs)
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/abstracts.py", line 1604, in connect
+    self._open_connection()
+  File "/home/ubuntu/cron_assignment/venv/lib/python3.12/site-packages/mysql/connector/connection_cext.py", line 360, in _open_connection
+    raise get_mysql_exception(
+mysql.connector.errors.DatabaseError: 2005 (HY000): Unknown MySQL server host 'MYSQL_HOST' (-3)
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -4.38°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C hajanaisia pilviä
+Data tallennettu: Oulu -5.5°C hajanaisia pilviä
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -4.94°C pilvinen
+Data tallennettu: Oulu -5.5°C pilvinen
+Data tallennettu: Oulu -5.5°C hajanaisia pilviä
+Data tallennettu: Oulu -5.5°C hajanaisia pilviä
+Data tallennettu: Oulu -5.5°C hajanaisia pilviä
+Data tallennettu: Oulu -6.05°C hajanaisia pilviä
+Data tallennettu: Oulu -6.05°C hajanaisia pilviä
+Data tallennettu: Oulu -6.05°C hajanaisia pilviä
+Data tallennettu: Oulu -5.5°C vähän pilviä
+Data tallennettu: Oulu -6.61°C vähän pilviä
+Data tallennettu: Oulu -7.72°C taivas on selkeä
+Data tallennettu: Oulu -7.72°C taivas on selkeä
+Data tallennettu: Oulu -7.16°C vähän pilviä
+Data tallennettu: Oulu -7.16°C vähän pilviä
+Data tallennettu: Oulu -7.72°C taivas on selkeä
+Data tallennettu: Oulu -7.72°C taivas on selkeä
+Data tallennettu: Oulu -7.72°C vähän pilviä
